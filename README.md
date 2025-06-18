@@ -36,7 +36,7 @@ The easiest way to deploy your Next.js app is to use the [Vercel Platform](https
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
 
 
-'''mermaid
+'''
 graph TD
     A[Weather Prediction App] --> B[Landing Page]
     B --> C[Weather Prediction Page]
@@ -44,5 +44,4 @@ graph TD
     C --> E[Input Document]
     E --> F[Output]
     D --> G[Chatbot]
-
 '''
