@@ -1,4 +1,4 @@
-# Weather Prediction App
+# Language Translation App
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
@@ -6,12 +6,19 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 
 ```mermaid
 graph TD
-    A[Weather Prediction App] --> B[Landing Page]
-    B --> C[Weather Prediction Page]
-    B --> D[Climate Awareness Page]
-    C --> E[Input Document]
-    E --> F[Output]
-    D --> G[Chatbot]
+    A[Landing Page] --> B[Translation Page]
+    A --> C[Text-to-Text Translation]
+    A --> D[Language Instructor]
+
+    B --> E[Voice-to-Voice Translation]
+    E --> F[Pop-up]
+    F --> G[Your Language]
+    F --> H[Translated Language]
+
+    C --> I[Document Upload]
+    I --> J[Convert to Other Language]
+
+    D --> K[Chatbot]
 ```
 
 ## 🚀 Getting Started
