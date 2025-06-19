@@ -1,4 +1,4 @@
-const GROQ_API_KEY = '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';
+const GROQ_API_KEY = process.env.NEXT_PUBLIC_GROQ_API_KEY
 import { getTranslationPrompt } from './voice-translation/prompt';
 import { getLearningPathPrompt, getInstructorPrompt } from './instructor/prompt';
 
